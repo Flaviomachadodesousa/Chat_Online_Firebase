@@ -50,7 +50,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     return Center(
                       child: CircularProgressIndicator(),
                     );
-                    default::
+                    default:
                       List<DocumentsSnapshot> documents = snapshot.data.documents;
                       return ListView.builder(itemBuilder: null);
                 }
