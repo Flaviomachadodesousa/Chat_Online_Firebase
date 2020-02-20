@@ -49,7 +49,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
       return user;
     } catch (error) {
-      return null;
+      //return null;
     }
   }
 
